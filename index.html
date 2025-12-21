@@ -45,6 +45,46 @@
       font-size: 0.9rem;
       color: #666;
     }
+    .services-section {
+      background: #f8f9fa;
+      padding: 2rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+      border-left: 4px solid #0066cc;
+    }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .pricing-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-top: 3px solid #0066cc;
+    }
+    .price {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #0066cc;
+      margin: 0.5rem 0;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      padding: 0.3rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    .features li:before {
+      content: "✓";
+      color: #28a745;
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
   </style>
 </head>
 <body>
@@ -54,6 +94,94 @@
   </header>
 
   <main>
+    <div class="services-section">
+      <h2>🏟️ Our Turf Booking Services & Pricing</h2>
+      <p>Step-Out offers comprehensive turf booking solutions with flexible pricing plans to suit every player and team's needs.</p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>⚽ Standard Turf Booking</h3>
+          <div class="price">₹800-1200/hour</div>
+          <p>Perfect for casual games and practice sessions</p>
+          <ul class="features">
+            <li>60-minute slot booking</li>
+            <li>Real-time availability check</li>
+            <li>Instant booking confirmation</li>
+            <li>QR code entry system</li>
+            <li>Basic equipment included</li>
+            <li>24/7 customer support</li>
+          </ul>
+        </div>
+        
+        <div class="pricing-card">
+          <h3>🏆 Premium Tournament Package</h3>
+          <div class="price">₹2500-4000/event</div>
+          <p>Complete tournament management solution</p>
+          <ul class="features">
+            <li>Multi-hour tournament slots</li>
+            <li>Team registration & management</li>
+            <li>Live score tracking</li>
+            <li>Match scheduling system</li>
+            <li>Digital scoreboard</li>
+            <li>Winner certificates</li>
+            <li>Photography services</li>
+          </ul>
+        </div>
+        
+        <div class="pricing-card">
+          <h3>👥 Team Management Pro</h3>
+          <div class="price">₹199/month per team</div>
+          <p>Advanced team coordination and analytics</p>
+          <ul class="features">
+            <li>Unlimited team members</li>
+            <li>Player performance analytics</li>
+            <li>Match history tracking</li>
+            <li>Team communication hub</li>
+            <li>Training session scheduler</li>
+            <li>Player availability tracker</li>
+            <li>Custom team profiles</li>
+          </ul>
+        </div>
+        
+        <div class="pricing-card">
+          <h3>🎯 Corporate Packages</h3>
+          <div class="price">₹15,000-25,000/month</div>
+          <p>Bulk booking solutions for companies</p>
+          <ul class="features">
+            <li>Priority booking access</li>
+            <li>Discounted hourly rates</li>
+            <li>Employee wellness programs</li>
+            <li>Monthly usage reports</li>
+            <li>Dedicated account manager</li>
+            <li>Custom billing solutions</li>
+            <li>Team building events</li>
+          </ul>
+        </div>
+      </div>
+      
+      <h3>💳 Payment & Booking Features</h3>
+      <ul>
+        <li><strong>Multiple Payment Options:</strong> UPI, Credit/Debit Cards, Net Banking, Wallets</li>
+        <li><strong>Advance Booking:</strong> Book up to 30 days in advance</li>
+        <li><strong>Group Discounts:</strong> 10% off for bookings of 5+ hours per month</li>
+        <li><strong>Loyalty Rewards:</strong> Earn points for every booking, redeem for free hours</li>
+        <li><strong>Weather Protection:</strong> Free rescheduling for rain cancellations</li>
+        <li><strong>Equipment Rental:</strong> Footballs, bibs, cones available at ₹50-100/item</li>
+      </ul>
+      
+      <h3>📱 App Features Included</h3>
+      <ul>
+        <li>Real-time turf availability and booking</li>
+        <li>Team creation and player management</li>
+        <li>Match scheduling and reminders</li>
+        <li>Live score tracking and match statistics</li>
+        <li>QR code-based entry system</li>
+        <li>Payment integration and booking history</li>
+        <li>Player performance analytics</li>
+        <li>Social features and team communication</li>
+      </ul>
+    </div>
+    
     <p><strong>Last Updated:</strong> 13th September 2025</p>
 
     <h2>1. Information We Collect</h2>
